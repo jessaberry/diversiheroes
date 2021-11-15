@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework import viewsets
+from rest_framework import viewsets, permissions
 from .serializers import PersonSerializer
 from .models import Person
 
@@ -7,3 +7,7 @@ from .models import Person
 class PersonView(viewsets.ModelViewSet):
     serializer_class = PersonSerializer
     queryset = Person.objects.all()
+    permission_classes = [permissions.AllowAny]
+    
+def index(request):
+    return render(request, 'frontend/index.html')

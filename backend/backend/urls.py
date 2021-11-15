@@ -22,6 +22,7 @@ router = routers.DefaultRouter()
 router.register(r'hackcamp', views.PersonView, 'Person')
 
 urlpatterns = [
+    path('', include('./frontend.urls')), # doesn't work
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
 ]

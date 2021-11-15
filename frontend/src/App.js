@@ -1,3 +1,6 @@
+import React, { Component } from "react";
+import ReactDOM from 'react-dom';
+import App from './App';
 import logo from './logo.svg';
 import './App.css';
 
@@ -21,5 +24,7 @@ function App() {
     </div>
   );
 }
+
+ReactDOM.render(<App/>, document.getElementById('id'));
 
 export default App;
