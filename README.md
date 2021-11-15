@@ -3,7 +3,7 @@ first hackathon attempt: react app highlighting the achievements of outstanding 
 
 Sample image of Diversiheroes: 
 
-![sample image](https://github.com/jessaberry/hackcamp2021/blob/main/sample.png | width=100)
+![sample image](https://github.com/jessaberry/hackcamp2021/blob/main/sample.png)
 
 progress: initiated backend (Django), unable to integrate frontend (React). 
 
