@@ -1,7 +1,9 @@
-# hackcamp2021 submission
+# Diversiheroes hackcamp2021 submission
 first hackathon attempt: react app highlighting the achievements of outstanding persons in minority groups. The app intends to cycle through heroes of diversity daily, with descriptions of their missions and accomplishments. The aim is to have this app act as a homepage, allowing users to open their browser and read the deeds of people who have fought adversity for diversity, inclusivity, and freedom. 
 
-![sample image](https://github.com/jessaberry/hackcamp2021/blob/main/sample.png)
+Sample image of Diversiheroes: 
+
+![sample image](https://github.com/jessaberry/hackcamp2021/blob/main/sample.png | width=100)
 
 progress: initiated backend (Django), unable to integrate frontend (React). 
 
